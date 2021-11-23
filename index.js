@@ -1,6 +1,6 @@
-// Script by Xeon 
+// free
 // 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭
-// ©Xeon Bot Incorporated
+// free
 const {
   WAConnection: _WAConnection,
   MessageType,
@@ -475,7 +475,7 @@ const math = (teks) => {
           thumbnail: iye,
           surface: 200,
           message: iye,
-          orderTitle: "Xeon",
+          orderTitle: "YT:Ismail Kurama",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -786,8 +786,8 @@ if (!itsMe && !isOwner)return
               mimetype: "image/jpeg",
               jpegThumbnail: fs.readFileSync(`./stik/thumb.jpeg`), //Gambarnye
             },
-            title: "FakeReply Bang", //Kasih namalu
-            description: "Xeon",
+            title: "Ismail Kurama", //Kasih namalu
+            description: "Jangan lupa Subscribe",
             currencyCode: "USD",
             priceAmount1000: "2000",
             retailerId: "𝐃𝐨𝐠𝐞 𝐁𝐨𝐭",
@@ -956,12 +956,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `wa.me/6283805279906`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
+                "mediaUrl": `wa.me/6283805279906`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `wa.me/6283805279906`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -974,7 +974,7 @@ sendEphemeral: false,
 "body": `${ucapanWaktu}`,
 "mediaType": "2",
 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
-"mediaUrl": "https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A",
+"mediaUrl": "https://youtube.com/c/IsmailKurama",
 "thumbnail": fs.readFileSync('./stik/thumb.jpeg'),
 "sourceUrl": "",
 },mentionedJid:[sender]}, quoted : fgif})
@@ -1165,7 +1165,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "6283805279906@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1283,7 +1283,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await xeon.setStatus(`Bot Mode On Since ${uptime}`).catch((_) => _);
+await xeon.setStatus(`Bot Aktif${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
     if (!mek.key.fromMe && banChats === true) return;
@@ -1377,8 +1377,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "916909137213@s.whatsapp.net"
-        dtod = '916909137213'
+        ptod = "6283805279906@s.whatsapp.net"
+        dtod = '6283805279906'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1572,7 +1572,7 @@ ${readmore}
 > ⬡ ${prefix}trapnime
 
 
-𝗡𝗼𝘁𝗲 : Horny = Bonks💥
+𝗡𝗼𝘁𝗲 : Subrek Ismail kurama💥
 Just Learn to Make Bots 🐶
  
 𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
@@ -1581,9 +1581,9 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
-   dtod2 = '919774340154'
+   dtod = '6283805279906'
+   dtod1 = '994401139350'
+   dtod2 = '994401139350'
    dtod3 = ''
    dtod4 ='0'
    var yez = `
@@ -3815,7 +3815,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon/DogeBot"
+          "url": "https://github.com/ismailofficial"
         },
         "index": 0
       }
